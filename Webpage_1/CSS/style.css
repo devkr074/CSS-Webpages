@@ -1,0 +1,35 @@
+/* Selectors in CSS are of three types: 1. Element Selector 2. id Selector 3. class Selector */
+
+/* Element selector */
+
+p {
+    color: white;
+}
+
+/* id selector is prefix by # symbol */
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: orange;
+}
+
+#p3 {
+    color: cyan;
+}
+
+#p4 {
+    color: green;
+}
+
+/* class selector is prefix by . symbol */
+
+.odd {
+    color: lightblue;
+}
+
+.even {
+    color: yellow;
+}
