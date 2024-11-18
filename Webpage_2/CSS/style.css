@@ -1,0 +1,21 @@
+/* Colors in CSS can be written in four types: 1. Named Color 2. RGB value 3. HEX value 3. HSL value */
+
+body {
+    background-color: slategrey;
+}
+
+#p1 {
+    color: tomato;
+}
+
+#p2 {
+    color: rgb(102, 222, 255);
+}
+
+#p3 {
+    color: #59ff5f;
+}
+
+#p4 {
+    color: hsl(283, 100%, 64%);
+}
