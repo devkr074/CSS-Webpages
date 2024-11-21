@@ -1,0 +1,23 @@
+#container {
+    border: 2px solid;
+}
+
+/* Descendant */
+#container p {
+    background-color: yellow;
+}
+
+/* Child */
+#container>p {
+    background-color: lightblue;
+}
+
+/* General sibling */
+#container~p {
+    background-color: lightgreen;
+}
+
+/* Adjacent sibling */
+#container+p {
+    background-color: red;
+}
