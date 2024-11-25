@@ -1,0 +1,145 @@
+body {
+    background-color: hsl(0, 0%, 12%);
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    font-size: 13em;
+    text-align: center;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#box1 {
+    background-color: red;
+    animation-name: slideLeft;
+}
+
+#box2 {
+    background-color: lightblue;
+    animation-name: slideRight;
+}
+
+#box3 {
+    background-color: lightgreen;
+    animation-name: slideUp;
+}
+
+#box4 {
+    background-color: yellow;
+    animation-name: slideDown;
+}
+
+#box5 {
+    background-color: orange;
+    animation-name: rotate;
+}
+
+#box6 {
+    background-color: rgb(128, 169, 48);
+    animation-name: grow;
+}
+
+#box7 {
+    background-color: rgb(6, 118, 158);
+    animation-name: shrink;
+}
+
+#box8 {
+    background-color: rgb(111, 27, 112);
+    animation-name: fade;
+}
+
+#box9 {
+    background-color: rgb(155, 65, 123);
+    animation-name: colorChange;
+}
+
+#box10 {
+    background-color: rgb(182, 67, 18);
+    animation-name: glow;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(300%)
+    }
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(300%)
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(300%)
+    }
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(300%)
+    }
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(2, 2)
+    }
+}
+
+@keyframes shrink {
+    50% {
+        transform: scale(0.5, 0.5)
+    }
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: hsl(0, 100%, 62%)
+    }
+
+    20% {
+        background-color: hsl(35, 100%, 62%)
+    }
+
+    40% {
+        background-color: hsl(63, 100%, 62%)
+    }
+
+    60% {
+        background-color: hsl(103, 100%, 62%)
+    }
+
+    80% {
+        background-color: hsl(201, 100%, 62%)
+    }
+
+    100% {
+        background-color: hsl(268, 100%, 62%)
+    }
+}
+
+@keyframes glow {
+    50% {
+        box-shadow: 0px 0px 50px hsl(60, 100%, 64%)
+    }
+}
