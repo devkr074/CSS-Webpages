@@ -1,5 +1,3 @@
-/* Along with position property we are able to use top, bottom, left, right property to change position of element */
-
 .box {
     height: 200px;
     width: 200px;
@@ -9,7 +7,6 @@
 #box1 {
     background-color: bisque;
     position: fixed;
-    /* Fixed Element doesn't move on scrolling a page */
     right: 0px;
 }
 
@@ -24,7 +21,6 @@
     height: 100px;
     width: 100px;
     position: absolute;
-    /* Absolute Positioned according to its parent element */
     top: 70px;
     left: 20px;
 }
