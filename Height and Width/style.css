@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: gray;
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    border: 2px solid;
+    float: left;
+    background-color: #fff;
+}
